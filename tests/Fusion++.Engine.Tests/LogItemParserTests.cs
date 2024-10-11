@@ -3,10 +3,11 @@ using FusionPlusPlus.Engine.Parser;
 using NUnit.Framework;
 using FluentAssertions;
 using System;
+using FusionPlusPlus.Engine.Tests;
 
 namespace FusionPlusPlus.Tests
 {
-	internal class LogItemParserTests
+    internal class LogItemParserTests
 	{
 		protected LogItemParser _parser;
 

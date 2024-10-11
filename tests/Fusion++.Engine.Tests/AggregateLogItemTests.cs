@@ -41,7 +41,7 @@ namespace FusionPlusPlus.Tests
 			public void Does_Not_Allow_Null()
 			{
 				var first = new LogItem();
-				LogItem second = null;
+				LogItem? second = null;
 				new AggregateLogItem(first).CanAggregate(second).Should().BeFalse();
 			}
 

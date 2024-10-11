@@ -1,11 +1,12 @@
 ﻿using FluentAssertions;
 using FusionPlusPlus.Engine.Parser;
+using FusionPlusPlus.Engine.Tests;
 using NUnit.Framework;
 using System.Threading.Tasks;
 
 namespace FusionPlusPlus.Tests
 {
-	internal class LogFileParserTests
+    internal class LogFileParserTests
 	{
 		internal class ParseMethod : LogFileParserTests
 		{
