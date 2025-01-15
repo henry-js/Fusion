@@ -34,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Fusion++.Engine\Fusion++.Engine.csproj" />
+    <ProjectReference Include="..\..\src\Fusion++.Engine\Fusion++.Engine.csproj" />
   </ItemGroup>
 
   <ItemGroup>
